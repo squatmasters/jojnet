@@ -59,4 +59,6 @@ elif problem_type == "6":
   a = a / 100000
   print("The volume is about" , a)
 else:
-  print("That is not a valid function")
+  yes = True
+  while yes:
+    print("That is not a valid function")
