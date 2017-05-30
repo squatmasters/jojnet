@@ -45,7 +45,7 @@ elif problem_type == "5":
   b = float(b)
   circle_area = a ** 2 * 3.14
   volume = circle_area * b / 3
-  print("the volume is" , volume)
+  print("the volume is" , volume , "and the base area is" , circle_area)
 elif problem_type == "6":
   a = input("radius=")
   a = float(a)
@@ -53,6 +53,10 @@ elif problem_type == "6":
   a = a * 3.14
   a = a * 4
   a = a / 3
+  a = a * 100000
+  int_a = int(a)
+  a = float(int_a)
+  a = a / 100000
   print("The volume is about" , a)
 else:
   print("That is not a valid function")
