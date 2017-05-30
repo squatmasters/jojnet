@@ -61,4 +61,4 @@ elif problem_type == "6":
 else:
   yes = True
   while yes:
-    print("That is not a valid function")
+    print("That is not a valid function") 
